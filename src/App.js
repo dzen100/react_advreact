@@ -7,10 +7,11 @@ class App extends Component {
   render() {
     return (
         <Provider store = {store}>
-            </Root>
+        <Root/>
         </Provider>
+
     )
   }
 }
 
-export default App;
+export default App
